@@ -1,7 +1,7 @@
 body{
     margin: 0;
     padding: 0;
-    cursor: url(images/aim.png), text;
+    cursor: url(aim.png), text;
     overflow: hidden;
 }
 
@@ -12,7 +12,7 @@ body:before{
     width: 100%;
     height: 100%;
     z-index: 1;
-    background: url(images/bg.png)  bottom left;
+    background: url(bg.png)  bottom left;
 }
 
 @keyframes enemyfly{
@@ -82,7 +82,7 @@ input + label{
     display: block;
     z-index: 5;
     transform: translate(-50%,-50%);
-    background: url(images/duck_black.png) no-repeat left center;
+    background: url(duck_black.png) no-repeat left center;
     background-position: -138px  0;
 }
 
@@ -96,52 +96,52 @@ input:checked + label{
 
 .enemy:nth-last-of-type(1){
     animation: enemyfly 10s linear 1s infinite;
-    cursor: url(images/aim.png), text;
+    cursor: url(aim.png), text;
 }
 
 .enemy:nth-last-of-type(2){
     animation: enemyfly 15s linear 5s infinite;
-    cursor: url(images/aim.png), text;
+    cursor: url(aim.png), text;
 }
 
 .enemy:nth-last-of-type(3){
     animation: enemyfly 20s linear 10s infinite;
-    cursor: url(images/aim.png), text;
+    cursor: url(aim.png), text;
 }
 
 .enemy:nth-last-of-type(4){
     animation: enemyfly 25s linear 15s infinite;
-    cursor: url(images/aim.png), text;
+    cursor: url(aim.png), text;
 }
 
 .enemy:nth-last-of-type(5){
     animation: enemyfly 30s linear 20s infinite;
-    cursor: url(images/aim.png), text;
+    cursor: url(aim.png), text;
 }
 
 .enemy:nth-last-of-type(6){
     animation: enemyfly 35s linear 25s infinite;
-    cursor: url(images/aim.png), text;
+    cursor: url(aim.png), text;
 }
 
 .enemy:nth-last-of-type(7){
     animation: enemyfly 38s linear 30s infinite;
-    cursor: url(images/aim.png), text;
+    cursor: url(aim.png), text;
 }
 
 .enemy:nth-last-of-type(8){
     animation: enemyfly 32s linear 34s infinite;
-    cursor: url(images/aim.png), text;
+    cursor: url(aim.png), text;
 }
 
 .enemy:nth-last-of-type(9){
     animation: enemyfly 46s linear 44s infinite;
-    cursor: url(images/aim.png), text;
+    cursor: url(aim.png), text;
 }
 
 .enemy:nth-last-of-type(10){
     animation: enemyfly 53s linear 48s infinite;
-    cursor: url(images/aim.png), text;
+    cursor: url(aim.png), text;
 }
 #score{
     position: absolute;
